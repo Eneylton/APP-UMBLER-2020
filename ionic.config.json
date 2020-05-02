@@ -4,5 +4,12 @@
   "type": "ionic-angular",
   "integrations": {
     "cordova": {}
-  }
+  },
+  
+  "proxies": [
+    {
+      "path": "/php",
+      "proxyUrl": "http://enecrud-com.umbler.net"
+    }
+  ]
 }
